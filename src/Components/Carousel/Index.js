@@ -31,6 +31,8 @@ const Item = styled.div`
   }
 `;
 
+const Header = styled.h1``;
+
 const Controls = styled.div`
   width: 90vw;
   margin: 0 auto;
@@ -154,7 +156,7 @@ class Carousel extends Component {
 
     return (
       <Section>
-        <h1>Carousel Test</h1>
+        <Header>Carousel Test</Header>
         <Article>{projects}</Article>
         <Controls>
           <button className="carousel__button prev" onClick={this.showPrevSet}>
