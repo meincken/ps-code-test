@@ -3,6 +3,12 @@ import { render, fireEvent } from "@testing-library/react";
 import Carousel from "./Index";
 import "@testing-library/jest-dom/extend-expect";
 
+it("should take a snapshot", () => {
+  const { asFragment } = render(<Carousel />);
+
+  expect(asFragment(<Carousel />)).toMatchSnapshot();
+});
+
 test("Check for Title", () => {
   const { getByText } = render(<Carousel />);
   const getTitle = getByText("Carousel Test");

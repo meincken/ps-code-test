@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="sc-AxjAm fzqnPh"
+  >
+    <h1
+      class="sc-AxhCb ccMvAG"
+    >
+      Carousel Test
+    </h1>
+    <article
+      class="sc-AxirZ icYjrT"
+    />
+    <div
+      class="sc-AxhUy dZUOZv"
+    >
+      <button
+        class="carousel__button prev"
+      >
+        <svg>
+          arrow.svg
+        </svg>
+        <span>
+          Prev
+        </span>
+      </button>
+      <button
+        class="carousel__button next"
+      >
+        <span>
+          Next
+        </span>
+        <svg>
+          arrow.svg
+        </svg>
+      </button>
+    </div>
+  </section>
+</DocumentFragment>
+`;
